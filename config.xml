@@ -12,7 +12,7 @@
     
 <gap:plugin name="com.simplec.plugins.localnotification" version="0.3.5" />
 <gap:plugin name="com.cordova.plugin.inappbrowser.with.loading.spinner" version="1.0.13" /> <!-- Animasi Load Data -->
-<gap:plugin name="com.phonegap.plugins.pushplugin" version="2.5.0" /> <!-- Penambahan Google Cloud Messaging -->
+<!--  <gap:plugin name="com.phonegap.plugins.pushplugin" version="2.5.0" /> Penambahan Google Cloud Messaging -->
 <gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
 <gap:plugin name="org.apache.cordova.contacts" version="0.2.13" />
 <gap:plugin name="org.apache.cordova.device" version="0.2.12" />
