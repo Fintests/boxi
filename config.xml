@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.ketjilbergerak.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     
-    <name>Ketjilbergerak</name>
-    <description>Tenaga Mudamu Energimu - Save Our Culture</description>
+    <name>Mouahidin</name>
+    <description>Moskee in Laak</description>
     <author email="alb3rt.mail@gmail.com" href="http://www.adore.demo.greenbox.web.id">Ketjilbergerak Project</author>
 
     <preference name="phonegap-version" value="3.3.0" />
@@ -48,6 +48,6 @@
     <gap:splash src="res/screen/ios/Default@2x.png" gap:platform="ios" width="680" height="960" />
     <gap:splash src="res/screen/ios/Deafult-568h-2x.png" gap:platform="ios" width="640" height="1136" />
 
-    <content src="http://www.adore.demo.greenbox.web.id" />
+    <content src="http://www.mouahidin.nl" />
     <access origin="*" subdomains="true" />
 </widget>
