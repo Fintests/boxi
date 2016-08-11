@@ -1,18 +1,51 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Moskee in Laak</title>
-  </head>
-  <body>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<title>Loading...</title>
 
-    <header class="bar bar-nav">
-      <h1 class="title">Moskee in Laak</h1>
-    </header>
+	<!-- for phonegap cross domain -->
+	<meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
 
-	<p style="margin: auto; height: 50px; width: 100%; text-align: center">Loading....</p>
-  	
-  	<script src="phonegap.js"></script>
+	<style>
+		html,
+		body {
+			height: 100%;
+			overflow: hidden;
+		}
+		body {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.hide {
+			display: none;
+		}
+		.show {
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<h1 id="loading">Loading...</h1>
 
-  </body>
+	<a onclick="goToApp()" id="after-loading" class="hide">
+		Ga naar website
+	</a>
+
+	<script src="cordova.js"></script>
+	<script>
+		function goToApp() {
+			window.open('http://mouahidin.nl', '_self', 'location=no,toolbar=no,zoom=no,enableViewportScale=no,hardwareback=no');
+		}
+		document.addEventListener('deviceready', goToApp, false);
+		setTimeout(function() {
+			var og = document.getElementById('loading');
+			og.className = 'hide';
+			var d = document.getElementById('after-loading');
+			d.className = 'show';
+		}, 1500);
+	</script>
+</body>
 </html>
