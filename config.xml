@@ -37,10 +37,10 @@
     <icon src="res/icons/android/drawable-hdpi/Icon.png" gap:platform="android" gap:density="hdpi" />
     <icon src="res/icons/android/drawable-xdpi/Icon.png" gap:platform="android" gap:density="xhdpi" /> -->
     
-    <icon src="ldpi.png" gap:platform="android" gap:density="ldpi" />
-    <icon src="mdpi.png" gap:platform="android" gap:density="mdpi" />
-    <icon src="hdpi.png" gap:platform="android" gap:density="hdpi" />
-    <icon src="xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+    <icon src="ldpit.png" gap:platform="android" gap:density="ldpi" />
+    <icon src="mdpit.png" gap:platform="android" gap:density="mdpi" />
+    <icon src="hdpit.png" gap:platform="android" gap:density="hdpi" />
+    <icon src="xhdpit.png" gap:platform="android" gap:density="xhdpi" />
   
     <gap:splash src="splash.png" />
     
