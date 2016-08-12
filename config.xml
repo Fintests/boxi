@@ -56,6 +56,9 @@
     <gap:splash src="res/screen/ios/Default.png" gap:platform="ios" width="320" height="480" />
     <gap:splash src="res/screen/ios/Default@2x.png" gap:platform="ios" width="680" height="960" />
     <gap:splash src="res/screen/ios/Deafult-568h-2x.png" gap:platform="ios" width="640" height="1136" />
+    
+    <preference name="splash-screen-duration" value="10000"/>
+    <preference name="SplashScreenDelay" value="10000" />
 
     <!--<content src="http://mouahidin.nl/gebedstijden"/><subdomains="true" />-->
     <access origin="http://mouahidin.nl/gebedstijden"/>
