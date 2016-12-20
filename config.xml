@@ -14,7 +14,7 @@
     <preference name="splash-screen-duration" value="10000"/>
     
     <!--<gap:plugin name="org.apache.cordova.device" />-->
-	<gap:plugin name="it.mobimentum.phonegapspinnerplugin" /> <!-- add loading spinner plugin -->
+    <!--<gap:plugin name="it.mobimentum.phonegapspinnerplugin" /> <!-- add loading spinner plugin -->
     <gap:plugin name="org.apache.cordova.camera" />
     <gap:plugin name="org.apache.cordova.media-capture" />
     <gap:plugin name="org.apache.cordova.file" />
